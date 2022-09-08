@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  /* opacity: 30%; */
+  background:url('./assets/images/image13.png');
+  height:100vh;
+  }
+
+
+label{
+  color:#fff;
+  font-weight:900;
+  margin-left:20px;
+  margin-right:20px;
+}
+
+
+input{
+  background:transparent;
+  padding: 10px;
+  width: 200px;
+  outline:none;
+  border-radius:50px;
+}
+
+input::placeholder{
+  color:white;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  /* background-color: #282c34; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.form--name-container{
+  display:flex;
+  align-items: center;
+}
+.form--mail-container{
+  display:flex;
+  align-items: center;
+}
+.form--role-container{
+  display: flex;
+  align-items: center;
+  
+}
+textarea{
+  margin-left: 10px;
+}
+avatar{
+  margin: auto;
+}
+
